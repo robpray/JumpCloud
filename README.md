@@ -1,6 +1,11 @@
 # JumpCloud
 QA Exercise
 
+Automation is C# using MSTest framework (built in Visual Studio 2017 against .net4.6.1)
+
+Additional notes:
+I'd spend more time on making sure the requests are indeed being processed in parallel. Likely using Jmeter to spin up a bunch of reuqests so it would be easier to see if if they are all processed in the 5 seconds or if it is additive. 
+
 
 Main bugs found:
 
