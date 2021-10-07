@@ -1,7 +1,7 @@
 # JumpCloud
 QA Exercise
 
-Automation is C# using MSTest framework (built in Visual Studio 2017 against .net4.6.1)
+Automation is C# using MSTest framework (built in Visual Studio 2017 against .net4.6.1). Should be able to open .sln file in VS to run tests. 
 
 This can be run by using Visual Studio community. You will need to update the hard coded string that has the exe path - I did not take the time to embed it in the project (also to keep it out of this publicly accessible repo). That should be the only update to the .cs file needed to run this.
 
